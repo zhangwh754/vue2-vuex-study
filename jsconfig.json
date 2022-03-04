@@ -1,0 +1,14 @@
+/* 使用@别名让vsocde可以识别路径，提示代码和ctrl跳转 */
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "target": "ES6",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
+
